@@ -11,7 +11,6 @@ numeros = [4, 2, 7, 1, 9, 3]
 print(f"Lista de números: {numeros}")
 buscado = int(input("Ingrese el número a buscar (secuencial): "))
 
-# Medir el tiempo de ejecución
 inicio = time.time()
 resultado = busqueda_secuencial(numeros, buscado)
 fin = time.time()
