@@ -21,7 +21,6 @@ numeros = [1, 2, 3, 4, 7, 9]
 print(f"Lista de números: {numeros}")
 buscado = int(input("Ingrese el número a buscar (binaria): "))
 
-# Medir el tiempo de ejecución
 inicio = time.time()
 resultado = busqueda_binaria(numeros, buscado)
 fin = time.time()
